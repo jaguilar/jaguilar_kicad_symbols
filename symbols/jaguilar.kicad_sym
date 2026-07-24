@@ -348,7 +348,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "INT1/INT"
@@ -366,7 +366,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -1.27 12.7 270)
 				(length 2.54)
 				(name "VDDIO"
@@ -384,7 +384,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
@@ -402,7 +402,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "FSYNC"
@@ -420,7 +420,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 1.27 12.7 270)
 				(length 2.54)
 				(name "VDD"
@@ -438,7 +438,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin output line
 				(at 12.7 0 180)
 				(length 2.54)
 				(name "INT2"
@@ -494,7 +494,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "AP_CS"
@@ -512,7 +512,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "SCL/SCLK"
@@ -530,7 +530,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -12.7 0 0)
 				(length 2.54)
 				(name "SDA/SDIO/SDI"
@@ -2241,7 +2241,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 11.176 7.62 0)
+			(at 3.556 8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2252,7 +2252,7 @@
 			)
 		)
 		(property "Value" "XT30PW-M"
-			(at 11.176 5.08 0)
+			(at 3.556 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2383,8 +2383,8 @@
 		)
 		(symbol "XT30PW-M_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 10.16 -5.08)
+				(start -2.54 3.81)
+				(end 2.54 -3.81)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2394,9 +2394,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at -7.62 1.27 0)
 				(length 5.08)
-				(name "1"
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2412,9 +2412,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at -7.62 -1.27 0)
 				(length 5.08)
-				(name "2"
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2430,7 +2430,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -2.54 180)
+				(at 2.54 -1.27 180)
 				(length 5.08)
 				(hide yes)
 				(name "3"
@@ -2449,7 +2449,7 @@
 				)
 			)
 			(pin no_connect non_logic
-				(at 10.16 0 180)
+				(at 2.54 1.27 180)
 				(length 5.08)
 				(hide yes)
 				(name "4"
